@@ -2,16 +2,15 @@
     margin: 0;
     padding: 0;
 }
-img{
-    margin-left: 46%;
-    width: 10rem;
-    height: 4rem;
+#logo{
+    text-align: center;
+    
 }
 nav{
     background-color: #e1a202;
     height: 45px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 nav a{
@@ -26,6 +25,20 @@ nav a{
 }
 
 nav a:hover{
-    color: gray;
-    background-color: red;
+    color: rgb(226, 0, 0);
+    background-color: #e1a202;
+    transition: 0.4s all ease-in-out;
+    transform: scale(1.2);
+}
+#background{
+    display: flex;
+   height: 520px;
+   width: 100%; 
+}
+h1{
+    position: absolute;
+    color: azure;
+    margin-top: 100px;
+    
+    font-size: 100px;
 }
